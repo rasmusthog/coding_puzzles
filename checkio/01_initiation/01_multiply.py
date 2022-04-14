@@ -10,6 +10,13 @@ def mult_two(a, b):
     return prod
 
 
+def mult_two_copilot(a,b):
+    '''
+    This function should return product of a and b
+    '''
+    return a * b
+    
+
 if __name__ == "__main__":
     print("Example:")
     print(mult_two(3, 2))

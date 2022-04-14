@@ -22,6 +22,13 @@ def most_frequent(data: list) -> str:
     return max_item
 
 
+def most_frequent_copilot(data: list) -> str:
+    """
+    determines the most frequently occurring string in the sequence.
+    """
+    return max(set(data), key=data.count)
+
+
 if __name__ == "__main__":
     # These "asserts" using only for self-checking and not necessary for auto-testing
     print("Example:")

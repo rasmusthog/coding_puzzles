@@ -10,6 +10,9 @@ def end_zeros(num: int) -> int:
     return count
 
 
+def end_zeros_copilot(num: int) -> int:
+    return len(str(num)) - len(str(num).rstrip('0'))
+
 if __name__ == "__main__":
     print("Example:")
     print(end_zeros(0))
