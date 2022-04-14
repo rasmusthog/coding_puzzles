@@ -6,6 +6,11 @@ def replace_first(items: list) -> Iterable:
     return items[1:] + [items[0]] if len(items) > 1 else items
 
 
+
+def replace_first_copilot(items: list) -> Iterable:
+    return items[1:] + [items[0]] if len(items) > 1 else items
+
+
 if __name__ == "__main__":
     print("Example:")
     print(list(replace_first([1, 2, 3, 4])))

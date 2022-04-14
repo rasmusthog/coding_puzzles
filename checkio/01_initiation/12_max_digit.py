@@ -3,6 +3,10 @@ def max_digit(number: int) -> int:
     return int(max(list(str(number))))
 
 
+def max_digit_copilot(number: int) -> int:
+    return max(list(str(number)))
+
+
 if __name__ == '__main__':
     print("Example:")
     print(max_digit(0))

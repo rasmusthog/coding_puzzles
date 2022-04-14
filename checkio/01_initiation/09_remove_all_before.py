@@ -9,6 +9,11 @@ def remove_all_before(items: list, border: int) -> Iterable:
     return items
 
 
+
+def remove_all_before_copilot(items: list, border: int) -> Iterable:
+    return items[items.index(border):]
+
+
 if __name__ == '__main__':
     print("Example:")
     print(list(remove_all_before([1, 2, 3, 4, 5], 3)))
